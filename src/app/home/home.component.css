@@ -1,0 +1,37 @@
+
+iframe{
+  transform: translateX(50%);
+}
+
+
+.title-text{
+  position: relative;
+  text-align: center;
+  color: blue;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+.title-text::after{
+  position: absolute;
+  content: '';
+  width: 25rem;
+  height: 0.18rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 2rem;
+  background-color: blue;
+}
+
+.featurette-divider {
+  margin: 5rem 0;
+}
+
+
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
