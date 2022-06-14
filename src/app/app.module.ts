@@ -11,13 +11,15 @@ import {HttpClientModule} from '@angular/common/http';
 import {CharacterService} from './character.service';
 import { CreateCharacterComponent } from './create-character/create-character.component';
 import {ReactiveFormsModule} from '@angular/forms';
+import { CharactersListComponent } from './characters-list/characters-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     AddCharacterComponent,
-    CreateCharacterComponent
+    CreateCharacterComponent,
+    CharactersListComponent
   ],
   imports: [
     YouTubePlayerModule,
